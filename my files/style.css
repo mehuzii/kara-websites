@@ -1,0 +1,96 @@
+body{
+    background-color:hsl(240, 64%, 27%);
+    color:hsl(300, 100%, 50%);
+    font-family:'Playwrite IT Trad', cursive;
+    text-align:center;
+}
+
+
+p{
+    font: size 1em;
+    line-height:normal;
+    color:hsl(312, 70%, 73%);
+    padding: 20px;
+    margin: 30px;
+    border-radius:15px;
+
+    animation:colorchange 3s infinite alternate;
+
+
+
+    
+}
+@keyframes colorchange{
+    0%{
+        color:hsl(312, 51%, 53%);
+    }
+}
+
+h1{
+    animation:step-start 1s finite;
+
+}
+@keyframes step-start{
+    0%{
+        color:hsl(300, 81%, 46%);
+    }
+}
+button{
+    background-color:hsl(0, 61%, 67%);
+    color:hsl(0, 78%, 98%);
+    padding:10px 20px;
+    border:none;
+    border-radius:30px;
+    font-size:1.2em;
+    cursor:pointer;
+    transition:0.3s ease;
+    
+    
+
+
+
+}
+button:hover{
+    background-color:hsl(350, 69%, 63%);
+
+}
+.hidden{
+    display:none;
+}
+body{
+    background:radial-gradient(
+        circle at top,
+        #30204f,
+        #10091f
+
+    );
+}
+.stars{
+    position:fixed;
+    width: 100px;
+
+    height:auto;
+    background-color:hsl(300, 78%, 68%);
+    pointer-events:mouse interaction control;
+    animation:twinkle 2s infinite alternate;
+}
+@keyframes twinkle{
+    0%{
+        opacity:0.3;
+    }
+    50%{
+        opacity : 1;
+    }
+    100%{
+        opacity:0.3;
+    }
+}
+container.appendchild(stars);
+
+
+
+
+
+
+
+
